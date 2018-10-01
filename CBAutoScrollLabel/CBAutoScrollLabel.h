@@ -45,6 +45,7 @@ typedef NS_ENUM(NSInteger, CBAutoScrollDirection) {
 @property (nonatomic, strong, nonnull) UIFont *font;
 @property (nonatomic, copy, nullable) NSString *text;
 @property (nonatomic, copy, nullable) NSAttributedString *attributedText;
+@property (nonatomic, strong, readonly) UILabel *mainLabel;
 @property (nonatomic, strong, nonnull) UIColor *textColor;
 @property (nonatomic) NSTextAlignment textAlignment; // only applies when not auto-scrolling
 @property (nonatomic, strong, nullable) UIColor *shadowColor;
