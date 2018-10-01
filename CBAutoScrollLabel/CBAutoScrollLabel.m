@@ -33,7 +33,6 @@ static void each_object(NSArray *objects, void (^block)(id object)) {
 @interface CBAutoScrollLabel ()
 
 @property (nonatomic, strong) NSArray *labels;
-@property (nonatomic, strong, readonly) UILabel *mainLabel;
 @property (nonatomic, strong) UIScrollView *scrollView;
 
 @end
